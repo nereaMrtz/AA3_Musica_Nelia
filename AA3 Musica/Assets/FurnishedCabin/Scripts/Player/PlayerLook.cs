@@ -59,7 +59,7 @@ public class PlayerLook : MonoBehaviour
         {
             xAxisClamp = 90.0f;
             mouseY = 0.0f;
-            ClampXAxisRotationToValue(270.0f);
+            ClampXAxisRotationToValue(70.0f);
         }
         else if (xAxisClamp < -90.0f)
         {
